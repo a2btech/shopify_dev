@@ -1,0 +1,467 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Debut",
+    "theme_author": "Shopify",
+    "theme_version": "13.2.2",
+    "theme_documentation_url": "https://help.shopify.com/manual/using-themes/themes-by-shopify/debut",
+    "theme_support_url": "https://support.shopify.com/"
+  },
+  {
+    "name": {
+      "en": "Colors",
+      "hi": "रंग"
+    },
+    "settings": [
+      {
+        "type": "header",
+        "content": {
+          "en": "Text",
+          "hi": "टेक्स्ट"
+        }
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": {
+          "en": "Headings and links",
+          "hi": "शीर्षक और लिंक"
+        },
+        "default": "#3d4246"
+      },
+      {
+        "type": "color",
+        "id": "color_body_text",
+        "label": {
+          "en": "Body text",
+          "hi": "मुख्य भाग"
+        },
+        "default": "#69727b"
+      },
+      {
+        "type": "color",
+        "id": "color_sale_text",
+        "label": {
+          "en": "Sale price",
+          "hi": "सेल की कीमत"
+        },
+        "default": "#557B97"
+      },
+      {
+        "type": "header",
+        "content": {
+          "en": "Buttons",
+          "hi": "बटन"
+        }
+      },
+      {
+        "type": "color",
+        "id": "color_button",
+        "label": {
+          "en": "Primary buttons",
+          "hi": "प्राथमिक बटन"
+        },
+        "default": "#557B97"
+      },
+      {
+        "type": "color",
+        "id": "color_button_text",
+        "label": {
+          "en": "Primary labels",
+          "hi": "प्राथमिक लेबल"
+        },
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "color_small_button_text_border",
+        "label": {
+          "en": "Secondary labels and borders",
+          "hi": "माध्यमिक लेबल और सीमाएं"
+        },
+        "default": "#3d4246"
+      },
+      {
+        "type": "header",
+        "content": {
+          "en": "Form fields",
+          "hi": "फ़ॉर्म फ़ील्ड्स"
+        }
+      },
+      {
+        "type": "color",
+        "id": "color_text_field_text",
+        "label": {
+          "en": "Text",
+          "hi": "टेक्स्ट"
+        },
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "color_text_field_border",
+        "label": {
+          "en": "Borders",
+          "hi": "बॉर्डर"
+        },
+        "default": "#949494"
+      },
+      {
+        "type": "color",
+        "id": "color_text_field",
+        "label": {
+          "en": "Background",
+          "hi": "पृष्ठभूमि"
+        },
+        "default": "#fff"
+      },
+      {
+        "type": "header",
+        "content": {
+          "en": "Image overlays",
+          "hi": "इमेज ओवरले"
+        }
+      },
+      {
+        "type": "color",
+        "id": "color_image_overlay_text",
+        "label": {
+          "en": "Text",
+          "hi": "टेक्स्ट"
+        },
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "color_image_overlay",
+        "label": {
+          "en": "Background",
+          "hi": "पृष्ठभूमि"
+        },
+        "default": "#3d4246"
+      },
+      {
+        "type": "range",
+        "id": "image_overlay_opacity",
+        "label": {
+          "en": "Opacity",
+          "hi": "अस्पष्टता"
+        },
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": {
+          "en": "%",
+          "hi": "%"
+        },
+        "default": 40
+      },
+      {
+        "type": "header",
+        "content": {
+          "en": "Page",
+          "hi": "पेज"
+        }
+      },
+      {
+        "type": "color",
+        "id": "color_borders",
+        "label": {
+          "en": "Borders and lines",
+          "hi": "बॉर्डर और लाइन"
+        },
+        "default": "#e8e9eb"
+      },
+      {
+        "type": "color",
+        "id": "color_body_bg",
+        "label": {
+          "en": "Background",
+          "hi": "पृष्ठभूमि"
+        },
+        "default": "#fff"
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Typography",
+      "hi": "Typography"
+    },
+    "settings": [
+      {
+        "type": "header",
+        "content": {
+          "en": "Headings and buttons",
+          "hi": "हेडिंग और बटन"
+        }
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_font",
+        "label": {
+          "en": "Font",
+          "hi": "फ़ॉन्ट"
+        },
+        "default": "work_sans_n6"
+      },
+      {
+        "type": "range",
+        "id": "type_header_base_size",
+        "label": {
+          "en": "Heading base size",
+          "hi": "शीर्षक के आधार का आकार"
+        },
+        "default": 26,
+        "min": 20,
+        "max": 36,
+        "step": 1,
+        "unit": {
+          "en": "px",
+          "hi": "px"
+        }
+      },
+      {
+        "type": "header",
+        "content": {
+          "en": "Body text",
+          "hi": "मुख्य भाग"
+        }
+      },
+      {
+        "type": "font_picker",
+        "id": "type_base_font",
+        "label": {
+          "en": "Font",
+          "hi": "फ़ॉन्ट"
+        },
+        "default": "work_sans_n4"
+      },
+      {
+        "type": "range",
+        "id": "type_base_size",
+        "label": {
+          "en": "Base size",
+          "hi": "मूल आकार"
+        },
+        "default": 16,
+        "min": 14,
+        "max": 20,
+        "step": 1,
+        "unit": {
+          "en": "px",
+          "hi": "px"
+        }
+      },
+      {
+        "type": "checkbox",
+        "id": "type_bold_product_titles",
+        "label": {
+          "en": "Bold product titles",
+          "hi": "बोल्ड उत्पाद शीर्षक"
+        }
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Social media",
+      "hi": "सोशल मीडिया"
+    },
+    "settings": [
+      {
+        "type": "header",
+        "content": {
+          "en": "Social sharing image",
+          "hi": "सोशल शेयरिंग इमेज"
+        }
+      },
+      {
+        "type": "image_picker",
+        "id": "share_image",
+        "label": {
+          "en": "Image",
+          "hi": "इमेज"
+        },
+        "info": {
+          "en": "Shown when sharing a link on social media. [Learn more](https://help.shopify.com/manual/using-themes/troubleshooting/showing-social-media-thumbnail-images/) about image thumbnails.",
+          "hi": "सोशल मीडिया पर लिंक शेयर करते समय दिखाना. [इमेज थंबनेल के बारे में](https://help.shopify.com/manual/using-themes/troubleshooting/showing-social-media-thumbnail-images/) और अधिक जानें ."
+        }
+      },
+      {
+        "type": "header",
+        "content": {
+          "en": "Social sharing options",
+          "hi": "सोशल शेयरिंग के विकल्प"
+        }
+      },
+      {
+        "type": "checkbox",
+        "id": "share_facebook",
+        "label": {
+          "en": "Share on Facebook",
+          "hi": "Facebook पर साझा करें"
+        },
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "share_twitter",
+        "label": {
+          "en": "Tweet on Twitter",
+          "hi": "Twitter पर ट्वीट करें"
+        },
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "share_pinterest",
+        "label": {
+          "en": "Pin on Pinterest",
+          "hi": "Pinterest पर पिन करें"
+        },
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": {
+          "en": "Social accounts",
+          "hi": "सोशल खाते"
+        }
+      },
+      {
+        "type": "text",
+        "id": "social_twitter_link",
+        "label": {
+          "en": "Twitter",
+          "hi": "Twitter"
+        },
+        "info": {
+          "en": "https://twitter.com/shopify",
+          "hi": "https://twitter.com/shopify"
+        }
+      },
+      {
+        "type": "text",
+        "id": "social_facebook_link",
+        "label": {
+          "en": "Facebook",
+          "hi": "Facebook"
+        },
+        "info": {
+          "en": "https://facebook.com/shopify",
+          "hi": "https://facebook.com/shopify"
+        }
+      },
+      {
+        "type": "text",
+        "id": "social_pinterest_link",
+        "label": {
+          "en": "Pinterest",
+          "hi": "Pinterest"
+        },
+        "info": {
+          "en": "https://pinterest.com/shopify",
+          "hi": "https://pinterest.com/shopify"
+        }
+      },
+      {
+        "type": "text",
+        "id": "social_instagram_link",
+        "label": {
+          "en": "Instagram",
+          "hi": "Instagram"
+        },
+        "info": {
+          "en": "http://instagram.com/shopify",
+          "hi": "http://instagram.com/shopify"
+        }
+      },
+      {
+        "type": "text",
+        "id": "social_tumblr_link",
+        "label": {
+          "en": "Tumblr",
+          "hi": "Tumblr"
+        },
+        "info": {
+          "en": "http://shopify.tumblr.com",
+          "hi": "http://shopify.tumblr.com"
+        }
+      },
+      {
+        "type": "text",
+        "id": "social_snapchat_link",
+        "label": {
+          "en": "Snapchat",
+          "hi": "Snapchat"
+        },
+        "info": {
+          "en": "https://www.snapchat.com/add/shopify",
+          "hi": "https://www.snapchat.com/add/shopify"
+        }
+      },
+      {
+        "type": "text",
+        "id": "social_youtube_link",
+        "label": {
+          "en": "YouTube",
+          "hi": "YouTube"
+        },
+        "info": {
+          "en": "https://www.youtube.com/shopify",
+          "hi": "https://www.youtube.com/shopify"
+        }
+      },
+      {
+        "type": "text",
+        "id": "social_vimeo_link",
+        "label": {
+          "en": "Vimeo",
+          "hi": "Vimeo"
+        },
+        "info": {
+          "en": "https://vimeo.com/shopify",
+          "hi": "https://vimeo.com/shopify"
+        }
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Favicon",
+      "hi": "Favicon"
+    },
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": {
+          "en": "Favicon image",
+          "hi": "favicon इमेज"
+        },
+        "info": {
+          "en": "Will be scaled down to 32 x 32px",
+          "hi": "32 x 32 पिक्सेल के आकार का कर दिया जाएगा"
+        }
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Add to cart notification",
+      "hi": "कार्ट सूचना में जोड़ें"
+    },
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_ajax",
+        "label": {
+          "en": "Show notification when item is added to cart",
+          "hi": "जब आइटम को कार्ट में जोड़ा जाता है, तो सूचना दिखाएं"
+        },
+        "default": true
+      }
+    ]
+  }
+]
